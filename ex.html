@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>hierarchy KayJay Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;   user-scalable=0;" name="viewport">
+   
+    <meta content="width=device-width, initial-scale=1.0" name="keywords">
+    <meta content="width=device-width, initial-scale=1.0" name="description">
+    <meta charset="UTF-8">
+
+    
+    <link rel="stylesheet" href="build/main.css">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        * {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+
+
+    .collapsible {
+      background-color: #2f8032;
+      
+      
+      padding: 18px;
+      width: 100%;
+     
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+        .mySlides {display:none;}
+
+     
+
+.zoom:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+            }
+
+
+
+        </style>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="build/main.css">
+    <script type="text/javascript" src="build/tree-maker.js"></script>
+</head>
+<body>
+     <!-- Spinner Start -->
+     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+   
+
+
+      
+      
+   
+   
+
+<hr style="height:2px;border: 1px solid rgb(6, 104, 21);color:rgb;background-color:rgb">
+<div id="my_tree" style="border: inherit;"></div>
+<hr>
+
+        
+<div id="zoom" class="test"> 
+<script type="text/javascript">
+    
+    let nestedTree = {
+        8: '',
+        9: {
+            10: '',
+            11: {
+                13: '',
+            },
+        },
+        12: '',
+    }
+    let nestedTree1 = {
+        13: {
+            31: '',
+        },
+        14: {
+            30: '',
+        },
+        15: {
+            29: '',
+        },
+        16: '',
+        17: {
+            28: '',
+        }
+        
+    }
+    let nestedTree2 = {
+        19: '',
+        20: '',
+        21: '',
+    }
+    let nestedTree3 = {
+        22: '',
+        23: '',
+        24: '',
+      
+    }
+    let nestedTree4 = {
+        25: {
+            26:'',
+            32: '',
+                     
+        
+        }
+        
+       
+      
+    }
+
+
+
+
+    let tree1 = {
+        1: {
+            2: '',
+            3: {
+                6: '',
+                7: nestedTree,
+            },
+            4: {
+                7: nestedTree,
+            },
+            5: ''
+        },
+    };
+
+    
+    let tree = {
+        1: {
+            2: {
+
+                6: nestedTree1,
+                7: '',
+                },
+            3: {
+                6: nestedTree1,
+                7: nestedTree2,
+                A: nestedTree3,
+                B: nestedTree4
+            },
+           
+        },
+    };
+    
+    let params = {
+        1: {trad: '<h6>Managing Direcor:-</h6>  I K B Johnpillai'},
+        2: {trad: '<h6>JT. Managing Director:-</h6>  I K K B Johnpillai(B.A.(Hons) M.llsec, MBA(UK)'},
+        3: {trad: '<h6>JT. Managing Director:-</h6>  J K K B Johnpillai	(Bsc (Hons) Msc)'},
+        A: {trad: '<h6>Operation Department-<br> Cash Escort/Vault</h6>'},
+        B: {trad: '<h6>Investigation <br> and Training</h6>'},
+        6: {trad: '<h6>Chief Financial Officer</h6>Ruwan Wijesooriya<br>(FCA, ACMA, ACPM,MBA (Australia), B.Sc)'},
+        7: {trad: '<h6>Operation Department- <br>Manpower security</h6>'},
+        8: {trad: 'Card 7'},
+        9: {trad: 'Card 7'},
+        10: {trad: 'Card 7'}, 
+        11: {trad: 'Card 7'},
+        12: {trad: 'Card 7'}, 
+        13: {trad: 'IT Department'},
+        14: {trad: 'Finance Department'}, 
+        15: {trad: 'Internal Audit'},
+        16: {trad: 'Administration Dep'},
+        17: {trad: 'HR'},
+        19: {trad: 'Operation Manager 1:- Channa'},
+        20: {trad: 'Operation Manager 2:- Nandana'},
+        21: {trad: 'Operation Manager 3:- Namal'},
+      
+        22: {trad: 'Cash Escort Manager	'},
+        23: {trad: 'Vault Manager	'},
+        24: {trad: 'CMS/Audit	'},
+        25: {trad: 'Senior Security Consultant:- Ret.DIG S S Navarathnaraja<br>	(Retd. DIG. Police)	'},
+        26: {trad: 'Investigations'},
+        28: {trad: 'HR Manager	'},
+        29: {trad: 'Internal Audit Executive		'},
+        30: {trad: 'Accountant	'},
+        31: {trad: 'IT Manager	'},
+        32: {trad: 'Training	'},
+
+    };
+    treeMaker.default(tree, {
+        id: 'my_tree',
+        card_click: function (element) {
+            console.log(element);
+        },
+        treeParams: params,
+        'link_width': '2px',
+        'link_color': '#2199e8',
+        'link_display': 'inherite',
+    });
+</script>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- Copyright End -->
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }</script>
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/parallax/parallax.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+<script type="text/javascript" src="build/tree-maker.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+</body>
+</html>

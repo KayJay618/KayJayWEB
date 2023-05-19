@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Our Solution KayJay-Group</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;   user-scalable=0;" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: auto;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: ""; display: table; clear: both;
+  
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  
+}
+.collapsible {
+  background-color: #2f8032;
+  color: rgb(189, 189, 189);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #d1d1d1;
+ 
+}
+img.test {
+    width: 100%;
+    height: auto;
+}
+
+  
+</style>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-light px-0 py-2">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <span>+012 345 6789</span>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <span class="far fa-envelope me-2"></span>
+                    <span>info@example.com</span>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <span>Follow Us:</span>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+             <img src="img/logo/navname.png" style="height: 100px; width: 300px; border-radius: 25px 15px;
+                margin-left: auto; margin-right: auto;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="Training.html" class="nav-item nav-link">Training</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="service.html" class="dropdown-item">KayJay Personnel</a>
+                        <a href="Career.html" class="dropdown-item">Career</a>
+                        <a href="Our_Solution.html" class="dropdown-item active">Our Solutions</a>
+                        <a href="Choosing.html" class="dropdown-item">Why Choosing Us</a>
+                       
+                    </div>
+                </div>
+             <a href="contact.html" class="nav-item nav-link">Contact</a>            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="t w3-section" >
+        <img class="mySlides" src="img/AB12.jpg" alt="About4" width="100%" height="30%" >
+        
+        <img class="mySlides" src="img/AB3 (1).jpg" alt="Abouts1" width="100%" height="30%" >
+        </div>
+            <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 4000); // Change image every 2 seconds
+            }
+            </script>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-bold text-primary">Our Services</p>
+                <h1 class="display-5 mb-5">KAY JAY SECURITY PERSONNEL</h1>
+            </div>
+
+            <p style="text-align: auto;"></p>
+            
+            <div class="row g-4" id="Retail">
+                <h4 class="display-5 mb-5" style="">Retail,Restaurant and Supermarket sector</h4>
+                <div class=""  style="border-style: inset; margin-top: ;">
+                    <div class="container-xxl py-5">
+                    <h5 style="border-style: none; text-align: auto;"> 
+                          <!-- <img src="img/kje.png" alt="Smiley face" style="float:right;width:250px;height:250px; ">-->
+                        "Kay Jay Security Personnel are generally perceived as providing static guarding services, however they also have the proven
+                         ability to fulfill an expert customer services role." The present day´s retail customers demand more from their shopping experience: 
+                         more time, more choice and more information. The staff employed to protect your store and its staff must also be able to act as 
+                         your ambassadors by enhancing the retail experience for shoppers, therefore attracting new visitors. Kay Jay have the expertise 
+                         and resources to provide the calibre of trained personnel that meet the needs of such positions..
+                        </h5>
+                    </div>
+
+                    <div class="row" style="content: none; display: table-left; clear: both; text-align: left; margin-top: auto ; ">
+                       <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                <div class="column" style="background-color:">
+                                    <h5>In Retail Stores we provide</h5><br>
+                                    <p>1.Retail trained officers</p>
+            
+                                    <p>2.In-store civil detectives</p>
+            
+                                    <p>3.Civil recovery management</p>
+            
+                                    <p>4.Electronic security solutions (CCTV, Access control)</p>
+            
+                                  
+                                </div>
+                    <div class="column" style="background-color:">
+                                    <h5>Shopping Centers we provide</h5><br>
+                                    <p>1.Customer service officers</p>
+            
+                                    <p>2.Guard tour patrolling</p>
+            
+                                    <p>3.CCTV monitoring and Control room staff</p>
+            
+                                    <p>4.Footfall analysis</p>
+            
+                                   
+                                </div>
+                                </div>
+                </div>
+            
+                <h4 class="display-5 mb-5"  id="events" style="">Special events</h4>
+                <div class=""  style="border-style: inset; margin-top: -50px;">
+                    <div class="container-xxl py-5">
+                    <h5 style="border-style: none; text-align: auto;"> 
+                          <!-- <img src="img/kje.png" alt="Smiley face" style="float:right;width:250px;height:250px; ">-->
+                          Kay Jay knows that unique events require unique security solutions. We can provide the appropriate solutions
+                           for one-off occasions such as sporting and entertainment events.
+
+                          Kay Jay can provide security for special events, including
+                        </h5>
+                    </div>
+
+                    <div class="row" style="content: none; display: table; clear: both; text-align: left; ;">
+                        <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                 <div class="column" style="background-color:">
+                                     <h5>In Retail Stores we provide</h5><br>
+                                     <p>1.Retail trained officers</p>
+             
+                                     <p>2.In-store civil detectives</p>
+             
+                                     <p>3.Civil recovery management</p>
+             
+                                     <p>4.Electronic security solutions (CCTV, Access control)</p>
+             
+                                   
+                                 </div>
+                     <div class="column" style="background-color:;color:rgb(255, 255, 255);">
+                                    
+                                     <p>1.Customer service officers</p>
+             
+                                     <p>2.Guard tour patrolling</p>
+             
+                                     <p>3.CCTV monitoring and Control room staff</p>
+             
+                                     <p>4.Footfall analysis</p>
+             
+                                    
+                                 </div>
+                                 </div>
+                </div>
+                <h4 class="display-5 mb-5" id="Public" style="">Public sector (Banking, Hotels, etc)</h4>
+                <div class=""  style="border-style: inset; margin-top: -50px;">
+                    <div class="container-xxl py-5">
+                    <h5 style="border-style: none; text-align: auto;"> 
+                          <!-- <img src="img/kje.png" alt="Smiley face" style="float:right;width:250px;height:250px; ">-->
+                          If your security team is dealing with the public 24 hours a day, you have to be confident that they are recruited 
+                          and trained to the highest possible standards. The public's perception of your organisation will be determined in
+                           part by the attitudes and behaviour of your security team. You expect them to treat the public with empathy and
+                            understanding and to react professionally to any security situation. Kay Jay has over thirty five years experience 
+                            in providing security teams to the public sector in a wide variety of roles. The general public expect our officers
+                             to be able to cope with any situation, large or small. So at Kay Jay, we have ensured our recruitment, screening
+                              and training standards are designed to meet these expectations.
+
+                        </h5><br>
+                    </div><br>
+
+                    <div class="row" style="content: none; display: table; clear: both; text-align: left; ">
+                        <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                 <div class="column" style="background-color:">
+                                     <h5>We provide security personnel for:</h5><br>
+                                     <p>1.Hospitals</p>
+             
+                                     <p>2.Banks</p>
+             
+                                     <p>3.Courts</p>
+             
+                                     <p>4.Schools, Colleges and Universities</p>
+
+                                     <p>5.Museums and Art Galleries</p>
+             
+                                   
+                                 </div>
+                     <div class="column" style="background-color:;color:rgb(255, 255, 255);">
+                                    
+                                     <p>1.Customer service officers</p>
+             
+                                     <p>2.Guard tour patrolling</p>
+             
+                                     <p>3.CCTV monitoring and Control room staff</p>
+             
+                                     <p>4.Footfall analysis</p>
+             
+                                    
+                                 </div>
+                                 </div>
+                </div>
+
+                <h4 class="display-5 mb-5" id="Industrial" style="">Industrial sector</h4>
+                <div class=""  style="border-style: inset; margin-top: -50px;">
+                    <div class="container-xxl py-5">
+                    <h5 style="border-style: none; text-align: auto;"> 
+                          <!-- <img src="img/kje.png" alt="Smiley face" style="float:right;width:250px;height:250px; ">-->
+                          The first person a client will speak to when visiting an office is a member of the security team. Their impressions 
+                          of that company, and their culture, are formed on the basis of that first exchange. Kay Jay has many years of experience
+                          in providing security teams that meet these exacting requirements, and of ensuring that a clients first impressions 
+                          are highly favourable.
+
+                        </h5>
+                    </div>
+
+                    <div class="row" style="content: none; display: table; clear: both; text-align: left; ">
+                        <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                 <div class="column" style="background-color:">
+                                     <h5>We provide guarding to the following Industrial sectors:</h5><br>
+                                     <p>1.Residential guarding</p>
+             
+                                     <p>2.Garment factories</p>
+             
+                                     <p>3.Factories FTZ</p>
+             
+                                     <p>4.Tea industries</p>
+
+                                     <p>5.NGO & Embassies</p>
+
+                                    
+             
+                                   
+                                 </div>
+                     <div class="column" style="background-color:;">
+                                    <br> <br>  <br>
+                                    <p>6.Hotels</p>
+
+                                    <p>7.Warehouses</p>
+
+                                    <p>8.Large/small offices</p>
+
+                                    <p>9.Showrooms</p>
+
+                                    <p>10.Bare lands</p>
+                        
+                                    
+                                 </div>
+                                 </div>
+                </div>
+
+               
+
+                                    <button type="button" class="collapsible" style="font-style:; border-style: none;"><b>See More....</b></button>
+                                    <div class="content" style="font-style:;">
+                                        <h4 class="display-5 mb-5" style="">TSS Solution</h4>
+                                        <div class=""  style="border-style: inset; margin-top: -50px;">
+                                            
+                        
+                                            <div class="row" style="content: none; display: table-center; clear: both; text-align: left; ">
+                                                <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                                         <div class="column" style="background-color:">
+                                                             <h5>Objectives of TSS:</h5><br>
+                                                             <p>1.Reduction in Operation Cost. (Reduce Man Power).</p>
+                                     
+                                                             <p>2.Using new technology for Security.</p>
+                                     
+                                                           
+                                                            
+                                     
+                                                           
+                                                         </div>
+                                             <div class="column" style="background-color:;">
+                                                            <h5>Solution:</h5><br>
+                                                            <p>1.Deployment of Trained Security guards</p>
+                        
+                                                            <p>2.Implementation of electronic security systems</p>
+                        
+                                                            <p>3.Implementation of central monitoring officers and a CMS station at site</p>
+                        
+                                                            <p>4.Constant supervision</p>
+                        
+                                                            <p>5.Prompt and effective after sales services</p>
+                                                
+                                                            
+                                                         </div>
+                                                         </div>
+                                        </div><br><br>
+                                        
+                                        <div class=""  style="border-style: inset; ">
+                                            
+                                            <div class="row" style="content: none; display: table; clear: both; text-align: left; ">
+                                                <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                                         <div class="column" >
+                                                            <h5 class="" >Before TSS</h5>       
+                                        <img class="test" src="img/Tss.PNG" alt="Abouts1"  >
+                                     
+                                                           
+                                                            
+                                     
+                                                           
+                                                         </div>
+                                                        
+                                             <div class="column" style="background-color:;">
+                                                <h5 class="" style="">Replaces with TSS</h5> 
+                                                <img class="test" src="img/Tss1.PNG" alt="Tss1"  >
+                                                
+                                                            
+                                                         </div>
+                                                      
+                                        </div>
+
+                                        
+                                    </div> <br><br><br><br><br>
+                                    
+                                    <div class=""  style="border-style: none; margin-top: -50px;">
+                                        <div class="container-xxl py-5">
+                                        <h5 style="border-style: none; text-align: auto;"> 
+                                           
+                                            
+                    
+                                            </h5>
+                    
+                                        <div class="row" style="content: none; display: table; clear: both; text-align: left;">
+                                            <hr style="width:100%;text-align:center;margin-left:0"> <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                                     <div class="column" style="background-color:">
+                                                       
+                                                         <h5>CMS Job Role:</h5><br>
+                                                         <p class='fas fa-angle-double-right' style='font-size:15px'>1.CCTV monitoring is to be done continuously 24 hrs on shift..</p>
+                                 
+                                                         <p class='fas fa-angle-double-right' style='font-size:15px'>2.
+                                                         The observer should be well familiarized with the places where cameras are located and having
+                                                          adequate knowledge about the camera operations..</p>
+                                                          <p class='fas fa-angle-double-right' style='font-size:15px'>The operator should check the serviceability of all cameras and if there is 
+                                                            any unserviceability it is to be informed to Kay Jay Head Office & it is to be 
+                                                            rectified immediately and should observe previous readings for any unusual occurrences detected through CCTV.</p>
+                                                        <p class='fas fa-angle-double-right' style='font-size:15px'>The operator should maintain Daily Occurrence Book (DOB) and if there is any special occurrences relating to CCTV, it is to be noted.</p>
+                                                                             
+                                                  
+                                                       
+                                                        
+                                 
+                                                       
+                                                     </div>
+                                                    
+                                         <div class="column" style="background-color:; margin-top: 40px;">
+                                            <p class='fas fa-angle-double-right' style='font-size:15px'>The operator should maintain Daily Occurrence Book (DOB) and if there is any special occurrences relating to CCTV, it is to be noted.</p>
+                                                    
+                                            <p class='fas fa-angle-double-right' style='font-size:15px'>Any absence of security officers for the assigned duties or lacking in performing their duties if observed, it is to bring to the immediate notice of the security OIC.</p>
+                                                    
+                                            <p class='fas fa-angle-double-right' style='font-size:15px'>If the camera sights are obstructed by any objects (such as trees) or defocused it should be cleared with the help of Client management.</p>
+                                                    
+                                            <p class='fas fa-angle-double-right' style='font-size:15px'>Unauthorized personnel are not allowed to CCTV monitoring cabin and not to disclose information to outsiders.</p>
+                                            <p class='fas fa-angle-double-right' style='font-size:15px'>The CCTV observers should have sufficient knowledge to understand the emergency situation (eg : fire / smoke) the operator should act as per the instructions.</p>
+                                                            
+                                                     
+                                                     </div>
+                                                    
+                                                     </div> <hr style="width:100%;text-align:center;margin-left:0;"> </div>
+                                                     <div class=""  style="border-style: none; margin-top: -60px;">
+                                                        <div class="container-xxl py-5">
+                                                     <div class="row" style="content: none; display: table; clear: both; text-align: left; ">
+                                                        <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                                                 <div class="column" style="background-color:">
+                                                                     <h5>OIC Job Role:</h5><br>
+                                                                     <p class='fas fa-angle-double-right' style='font-size:15px'>CCTV monitoring is to be done continuously 24 hrs on shift..</p>
+                                             
+                                                                     <p class='fas fa-angle-double-right' style='font-size:15px'>Prepare a Duty Roster for the Month/ Week.</p>
+                                                                      <p class='fas fa-angle-double-right' style='font-size:15px'>Ensure all Guards Follows the roster</p>
+                                                                      <p class='fas fa-angle-double-right' style='font-size:15px'>Ensure all guards are working to the proper time</p>
+                                                                      <p class='fas fa-angle-double-right' style='font-size:15px'>Keep the proper cadre available</p>
+                                             
+                                                                   
+                                                                    
+                                             
+                                                                   
+                                                                 </div>
+                                                     <div class="column">
+                                                                    <h5>Benefits of TSS:</h5><br>
+                                                                    <p class='fas fa-angle-double-right' style='font-size:15px'>Electronic Evidence, Footages will be available for all moments.</p>
+                                
+                                                                    <p class='fas fa-angle-double-right' style='font-size:15px'>Constant Supervision and increase in security productiveness.</p>
+                                
+                                                                    <p class='fas fa-angle-double-right' style='font-size:15px'>If the company go with KJE Rental Program there won’t be any initial cost
+                                                                         for the Electronic Security System..</p>
+                                
+                                                                    <p class='fas fa-angle-double-right' style='font-size:15px'> Daily, Weekly, Monthly surveillance reports (Security Guards Moments,
+                                                                         Vehicle In-out report, suspect moments report) 
+                                                                        will be generated as per clients’ requirement by CMS officers.</p>
+                                
+                                                                    
+                                                                    
+                                                                 </div>
+                                                                 </div>
+                                                                 <hr>
+                                 <h4 class="display-5 mb-5" style="">Security Consulting</h4>
+                                        <div class=""  style="border-style: none; "><hr>
+                                         
+                                            <div class="row" style="content: none; display: table; clear: both; text-align: left; ">
+                                                <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                                         <div class="" style=" width: 50%;
+                                                         padding: 10px;
+                                                         height: 50px;">
+                                                            
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Physical Safety and Security Tours of Each Property.</i><br>
+                                     
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Review of Incident Reports & Other Foresee-ability Issues</i><br>
+                                            
+                                     
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Property Manual Review and Preparation</i><br>
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> International Travel Security Consulting &<br> Protection Service</i><br>
+                                     
+                                                           
+                                                           
+                                                            
+                                     
+                                                           
+                                                         </div>
+                                             <div class="" style=" width: 50%; 
+                                                    
+                                                              height: 50px; float: ; margin-left: 400px; ">
+                                                            
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Review of Property Security Procedures and Equipment</i><br>
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Management and Employee Safety & Security training</i>
+                        
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> In-house Security Rules and Procedures</i><br>
+                        
+                                                           
+                                                            
+                                                           
+                                                            
+                                                         </div>
+                                                         </div> <br><br>
+                                        
+                                        <hr>
+                                        
+                                        <h4 class="display-5 mb-5" style="">Industries We Cover</h4>
+                                        <hr>
+                                            
+                        
+                                            <div class="row" style="content: none; display: table; clear: both; text-align: left; ">
+                                                <!-- <p style="color:rgb(0, 0, 0);">The operational force consists of under mentioned categories.</p>-->
+                                                         <div class="" style=" width: 50%;
+                                                         padding: 10px;
+                                                         height: 50px;">
+                                                            
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Electronic Security Services.</i><br>
+                                     
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Armed Transport Services.</i><br>
+                                            
+                                     
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Residential Protection Details.</i><br>
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Corporate Protection Details.</i><br>
+                                     
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Wage packet Services.</i><br>
+                                                             <i class='fas fa-angle-double-right' style='font-size:15px'> Healthcare Facilities.</i><br>
+                                     
+                                                            
+                                                           
+                                                            
+                                     
+                                                           
+                                                         </div>
+                                             <div class="" style=" width: 50%; 
+                                                    
+                                                              height: 50px; float: ; margin-left: 400px; margin-top: -40px;">
+                                                            
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Residential Complexes</i><br>
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Corporate Buildings</i>
+                        
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Loss Prevention</i><br>
+                        
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Retail Venues</i><br>
+                        
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Parking Lots</i><br>
+                        
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Government institutions</i><br>
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Night Patrol</i><br>
+                                                            <i class='fas fa-angle-double-right' style='font-size:15px'> Hotel Security</i>
+                                                
+                                                            
+                                                         </div>
+                                                         </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                             <br><br>
+                                
+         
+                            </div></div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>618, Aluthmawatha Road, Colombo 15, Sri Lanka.</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+94 (11) 252 2302<br>
+                        +94 (11) 252 9242<br>
+                        +94 (11) 252 6060<br>
+                        +94 (11) 489 1888<br></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>kayjay@kayjay-group.com<br>
+                        sales@kayjay-group.com<br>
+                        clientcare@kayjay-group.com<br></p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Our Subsidary Companies</h4>
+                    <a class="btn btn-link" href="http://kayjayelectronics.com/">KayJay Electronics</a>
+                    <a class="btn btn-link" href="http://kayjaysecurity.com/cash_transit.html">KayJay Cash Transit Services</a>
+                    <a class="btn btn-link" href="http://kayjaysecurity.com/kay-jay_markating.html">KayJay Logistics</a>
+                    <a class="btn btn-link" href="http://villa.kayjayhotels.com/">KayJay Villa</a>
+                    <a class="btn btn-link" href="http://beachhouse.kayjayhotels.com/">KayJay Beach house</a>
+                    <a class="btn btn-link" href="http://wild.kayjayhotels.com/">KayJay Wild</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">We are at...</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3870260915837!2d79.8664222151987!3d6.963588194969136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae258edf3aaaf51%3A0xcb5f0f20b0567b51!2sKay+Jay+Group!5e0!3m2!1sen!2slk!4v1541584773877" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="position-relative w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">KayJay Group</a>, 2023 All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed & Developed By <a class="border-bottom" href="">KayJay Group IT Department</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }</script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
